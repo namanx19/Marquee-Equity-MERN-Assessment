@@ -79,7 +79,7 @@ const SearchPage = () => {
         )}
         <div className="flex justify-center py-8">
           <a
-            className="flex items-center justify-center px-4 py-2 rounded-lg bg-blue-500 text-white font-semibold w-full"
+            className="flex items-center justify-center px-4 py-2 rounded-lg bg-blue-500 text-white font-semibold md:w-96 sm:w-72 w-auto duration-300"
             href="/bookshelf"
           >
             Go to My Bookshelf

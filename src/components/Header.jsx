@@ -27,7 +27,7 @@ const Header = () => {
           </div> */}
           <div className="bg-gray-100 backdrop-blur bg-opacity-60 rounded-lg hover:bg-gray-200 duration-500 flex items-center gap-x-2 px-4 py-2">
             <a
-              href="/mybookshelf"
+              href="/bookshelf"
               className="lg:text-lg sm:text-sm text-xs text-black "
             >
               My Bookshelf
