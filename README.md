@@ -27,4 +27,25 @@ To set up the project locally, follow these steps:
 
 4. Start the development server: `npm start`
 
+## Screenshots
+<table>
+  <tr>
+    <td> <img src="https://github.com/namanx19/Marquee-Equity-MERN-Assessment/assets/71885262/201785c8-2bd8-4f90-a749-67dde70ba815" alt="Landing Page" width="auto" height="auto"> </td>
+  </tr>
+  <tr>
+    <td> <img src="https://github.com/namanx19/Marquee-Equity-MERN-Assessment/assets/71885262/56281731-7dc4-413e-8e9c-5d91bdc9aba1" alt="Landing Page" width="auto" height="auto"> </td>
+  </tr>
+  <tr>
+    <td> <img src="https://github.com/namanx19/Marquee-Equity-MERN-Assessment/assets/71885262/c451b564-602e-4ca5-ba29-3fbda09df9ac" alt="Landing Page" width="auto" height="auto"> </td>
+  </tr>
+  <tr>
+    <td> <img src="https://github.com/namanx19/Marquee-Equity-MERN-Assessment/assets/71885262/58b5bd9e-412b-4d1c-ad42-e53d517f4970" alt="Landing Page" width="auto" height="auto"> </td>
+  </tr>
+</table>
+
+
+
+
+
+
 
