@@ -16,7 +16,7 @@ This project is a React application developed as part of the Front-End Intern As
 10. Custom Favicons
 11. Ensured complete responsiveness on all screens.
 12. Code available on [GitHub](https://github.com/namanx19/Marquee-Equity-MERN-Assessment.git).
-13. Website deployed on [Vercel]. [Link](https://personalbookshelfnamanxgupta-fufgsnevf-namanx19s-projects.vercel.app/bookshelf)
+13. Website deployed on Vercel. [Link](https://personalbookshelfnamanxgupta-fufgsnevf-namanx19s-projects.vercel.app/bookshelf)
 
 ## Setup Instructions
 To set up the project locally, follow these steps:
