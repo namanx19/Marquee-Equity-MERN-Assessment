@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
-const BookCard = ({ book, showAddButton }) => {
+const BookCard = ({ book, showAddButton, addToBookshelf }) => {
+  const [isAdded, setIsAdded] = useState(false);
+
+  const handleAddToBookshelf = () => {
+    addToBookshelf(book);
+    setIsAdded(true);
+  };
+
   return (
     <div className="w-64 h-96 p-4 rounded-lg border-2 border-gray-300 space-y-4 flex flex-col justify-between">
       <div className="h-3/4 bg-gray-200 flex items-center justify-center rounded-lg">
@@ -28,9 +35,12 @@ const BookCard = ({ book, showAddButton }) => {
         </div>
       </div>
       {showAddButton && (
-        <div className="rounded-lg w-full bg-blue-500 text-center px-4 py-2">
-          <button className="text-white">Add to Bookshelf</button>
-        </div>
+        <button
+          className="rounded-lg w-full bg-blue-500 text-center px-4 py-2 text-white"
+          onClick={handleAddToBookshelf}
+        >
+          {isAdded ? "Added" : "Add to Bookshelf"}
+        </button>
       )}
     </div>
   );

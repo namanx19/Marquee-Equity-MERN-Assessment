@@ -11,7 +11,7 @@ const BookSearch = ({ onSearch }) => {
 
   return (
     <input
-      className="md:w-96 sm:w-72 w-3/4 px-4 py-2 rounded-lg border-2 hover:border-indigo-600 duration-300 placeholder:text-center"
+      className="md:w-96 sm:w-72 w-3/4 px-4 py-2 rounded-lg border-2 hover:blue-500 duration-300 placeholder:text-center"
       type="text"
       placeholder="Search for books"
       value={query}
