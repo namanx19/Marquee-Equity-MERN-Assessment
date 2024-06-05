@@ -23,7 +23,7 @@ const BookshelfPage = () => {
       </div>
 
       {isLocalStorageEmpty && (
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center mt-8">
           <div className="flex flex-col justify-center items-center w-full h-64">
             <Lottie options={defaultOptions} height={350} width={350} />
           </div>
