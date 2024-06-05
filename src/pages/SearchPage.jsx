@@ -4,6 +4,17 @@ import BookSearch from "../components/BookSearch";
 import BookCard from "../components/BookCard";
 import { fetchBooks } from "../api";
 import { Grid } from "react-loader-spinner";
+import Lottie from "react-lottie";
+import animationData from "../assets/Animation - 1717584116596.json";
+
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice",
+  },
+};
 
 const SearchPage = () => {
   const [books, setBooks] = useState([]);
@@ -40,8 +51,13 @@ const SearchPage = () => {
 
   return (
     <div className="container mx-auto">
-      <div className="flex flex-col col-span-12 items-center space-y-6">
-        <div className="w-full flex justify-center mt-6">
+      <div className="flex flex-col col-span-12 items-center gap-y-2">
+        <div className="w-full flex justify-center">
+          <div className="flex flex-col justify-center items-center w-full h-64">
+            <Lottie options={defaultOptions} height={350} width={350} />
+          </div>
+        </div>
+        <div className="w-full flex justify-center">
           <h1 className="px-4 py-2 text-blue-500 font-semibold md:text-4xl sm:text-3xl text-2xl text-center">
             Explore Book Treasures
           </h1>
