@@ -16,7 +16,7 @@ This project is a React application developed as part of the Front-End Intern As
 10. Custom Favicons
 11. Ensured complete responsiveness on all screens.
 12. Code available on [GitHub](https://github.com/namanx19/Marquee-Equity-MERN-Assessment.git).
-13. Website deployed on Netlify. [Link](https://personalbookshelf-namanxgupta.netlify.app/)
+13. Website deployed on [Vercel]. [Link](https://personalbookshelfnamanxgupta-fufgsnevf-namanx19s-projects.vercel.app/bookshelf)
 
 ## Setup Instructions
 To set up the project locally, follow these steps:
@@ -24,11 +24,13 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 `git clone https://github.com/namanx19/Marquee-Equity-MERN-Assessment.git`
 
-2. Navigate to the project directory
+2. Navigate to the project directory: cd <PATH_OF_DIRECTORY>
 
 3. Install dependencies: `npm install`
 
 4. Start the development server: `npm start`
+   
+5. On your browser, go to `http://localhost:3000` (if your port is 3000)
 
 ## Screenshots
 <table>
@@ -42,13 +44,9 @@ To set up the project locally, follow these steps:
     <td> <img src="https://github.com/namanx19/Marquee-Equity-MERN-Assessment/assets/71885262/c451b564-602e-4ca5-ba29-3fbda09df9ac" alt="Landing Page" width="auto" height="auto"> </td>
   </tr>
   <tr>
+    <td> <img src="https://github.com/namanx19/Marquee-Equity-MERN-Assessment/assets/71885262/7645f791-827c-4711-9b01-b32bc0d67d58" alt="Landing Page" width="auto" height="auto"> </td>
+  </tr>
+  <tr>
     <td> <img src="https://github.com/namanx19/Marquee-Equity-MERN-Assessment/assets/71885262/58b5bd9e-412b-4d1c-ad42-e53d517f4970" alt="Landing Page" width="auto" height="auto"> </td>
   </tr>
 </table>
-
-
-
-
-
-
-
