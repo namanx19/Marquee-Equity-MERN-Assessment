@@ -12,9 +12,9 @@ const Header = () => {
             <img
               src={images.Logo}
               alt="MyBookshelf"
-              className="w-12 h-12 mr-4"
+              className="sm:w-12 sm:h-12 w-10 h-10 sm:mr-4 mr-2"
             />
-            <h1 className="hidden sm:block sm:text-lg md:text-xl lg:text-2xl font-bold text-black">
+            <h1 className="text-xs sm:text-lg md:text-xl lg:text-2xl font-bold text-black">
               Bookshelf
             </h1>
           </div>
@@ -25,7 +25,7 @@ const Header = () => {
               About
             </a>
           </div> */}
-          <div className="bg-gray-100 backdrop-blur bg-opacity-60 rounded-lg hover:bg-gray-200 duration-500 flex items-center gap-x-2 px-4 py-2">
+          <div className="bg-gray-100 backdrop-blur bg-opacity-60 rounded-lg hover:bg-gray-200 duration-500 flex items-center gap-x-2 md:px-4 px-2 py-2">
             <a
               href="/bookshelf"
               className="lg:text-lg sm:text-sm text-xs text-black "
