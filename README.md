@@ -11,9 +11,12 @@ This project is a React application developed as part of the Front-End Intern As
 5. Developed reusable components such as BookCard, BookList, Bookshelf, Footer, Header, and MainLayout.
 6. Utilized the Open Library API to retrieve books in the search results.
 7. Enhanced the UI/UX of the application.
-8. Ensured complete responsiveness on all screens.
-9. Code available on [GitHub](https://github.com/namanx19/Marquee-Equity-MERN-Assessment.git).
-10. Website deployed on Netlify. [Link](#) (Replace with actual link)
+8. Glassmorphic Navbar Design
+9. Lottie Animations
+10. Custom Favicons
+11. Ensured complete responsiveness on all screens.
+12. Code available on [GitHub](https://github.com/namanx19/Marquee-Equity-MERN-Assessment.git).
+13. Website deployed on Netlify. [Link](#) (Replace with actual link)
 
 ## Setup Instructions
 To set up the project locally, follow these steps:
