@@ -62,7 +62,7 @@ const SearchPage = () => {
             Explore Book Treasures
           </h1>
         </div>
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center mb-4">
           <BookSearch onSearch={handleSearch} />
         </div>
         {loading ? (
@@ -77,7 +77,7 @@ const SearchPage = () => {
               visible={true}
             />
             <h1 className="font-light text-xl mt-6">
-              Fetching Books from the API
+              Fetching Books from OpenLibrary
             </h1>
           </div>
         ) : (
