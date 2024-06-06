@@ -25,15 +25,14 @@ const Header = () => {
               About
             </a>
           </div> */}
-          <div className="bg-gray-100 backdrop-blur bg-opacity-60 rounded-lg hover:bg-gray-200 duration-500 flex items-center gap-x-2 md:px-4 px-2 py-2">
-            <a
-              href="/bookshelf"
-              className="lg:text-lg sm:text-sm text-xs text-black "
-            >
-              My Bookshelf
-            </a>
-            <IoIosArrowDroprightCircle className="text-black lg:text-lg sm:text-sm text-xs" />
-          </div>
+          <a href="/bookshelf">
+            <div className="bg-gray-100 backdrop-blur bg-opacity-60 rounded-lg hover:bg-gray-200 duration-500 flex items-center gap-x-2 md:px-4 px-2 py-2">
+              <p className="lg:text-lg sm:text-sm text-xs text-black ">
+                My Bookshelf
+              </p>
+              <IoIosArrowDroprightCircle className="text-black lg:text-lg sm:text-sm text-xs" />
+            </div>
+          </a>
         </nav>
       </header>
     </section>

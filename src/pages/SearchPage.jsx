@@ -62,7 +62,7 @@ const SearchPage = () => {
             Explore Book Treasures
           </h1>
         </div>
-        <div className="w-full flex justify-center sm:mb-24 mb-16">
+        <div className="w-full flex justify-center ">
           <BookSearch onSearch={handleSearch} />
         </div>
         {loading ? (
@@ -81,7 +81,7 @@ const SearchPage = () => {
             </h1>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:mt-24 mt-16">
             {books.map((book) => (
               <div key={book.key} className="flex justify-center">
                 <BookCard
