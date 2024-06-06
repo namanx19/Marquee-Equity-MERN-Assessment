@@ -62,7 +62,7 @@ const SearchPage = () => {
             Explore Book Treasures
           </h1>
         </div>
-        <div className="w-full flex justify-center mb-4">
+        <div className="w-full flex justify-center sm:mb-24 mb-16">
           <BookSearch onSearch={handleSearch} />
         </div>
         {loading ? (

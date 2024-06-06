@@ -9,7 +9,7 @@ const BookCard = ({ book, showAddButton, addToBookshelf }) => {
   };
 
   return (
-    <div className="w-64 h-96 p-4 rounded-lg border-2 border-gray-300 space-y-4 flex flex-col justify-between">
+    <div className="w-64 h-96 p-4 shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-lg border-0 border-gray-300 space-y-4 flex flex-col justify-between">
       <div className="h-3/4 bg-gray-200 flex items-center justify-center rounded-lg">
         <div className="flex justify-center items-center h-32">
           <img
