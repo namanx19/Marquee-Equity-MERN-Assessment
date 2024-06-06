@@ -1,11 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-const BookCard = ({ book, showAddButton, addToBookshelf }) => {
+const BookCard = ({
+  book,
+  showAddButton,
+  addToBookshelf,
+  showRemoveButton,
+  removeFromBookshelf,
+}) => {
   const [isAdded, setIsAdded] = useState(false);
+
+  useEffect(() => {
+    const bookshelf = JSON.parse(localStorage.getItem("bookshelf")) || [];
+    const bookExists = bookshelf.some((b) => b.key === book.key);
+    setIsAdded(bookExists);
+  }, [book.key]);
 
   const handleAddToBookshelf = () => {
     addToBookshelf(book);
     setIsAdded(true);
+  };
+
+  const handleRemoveFromBookshelf = () => {
+    removeFromBookshelf(book);
   };
 
   return (
@@ -38,8 +54,17 @@ const BookCard = ({ book, showAddButton, addToBookshelf }) => {
         <button
           className="rounded-lg w-full bg-blue-500 text-center px-4 py-2 text-white"
           onClick={handleAddToBookshelf}
+          disabled={isAdded}
         >
           {isAdded ? "Added" : "Add to Bookshelf"}
+        </button>
+      )}
+      {showRemoveButton && (
+        <button
+          className="rounded-lg w-full bg-red-500 text-center px-4 py-2 text-white"
+          onClick={handleRemoveFromBookshelf}
+        >
+          Remove from Bookshelf
         </button>
       )}
     </div>
