@@ -40,7 +40,7 @@ const BookshelfPage = () => {
         </div>
       )}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center px-32 py-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center lg:px-24 py-2">
         {books.map((book, index) => (
           <div key={index} className="flex justify-center">
             <BookCard book={book} showAddButton={false} showRemoveButton={true} removeFromBookshelf={removeFromBookshelf} />
