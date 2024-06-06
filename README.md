@@ -24,7 +24,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 `git clone https://github.com/namanx19/Marquee-Equity-MERN-Assessment.git`
 
-2. Navigate to the project directory: cd <PATH_OF_DIRECTORY>
+2. Navigate to the project directory: `cd <PATH_OF_DIRECTORY>`
 
 3. Install dependencies: `npm install`
 
